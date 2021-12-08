@@ -1,0 +1,31 @@
+body{
+    animation-name:animacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animacion {
+    from {background-color:red;}
+    to {background-color:rgb(122, 0, 128);}
+}
+h1{
+    animation-name:Nombre;
+    font-size: 14px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Nombre {
+    0% {font-size:14px}
+    100%{font-size:100px}
+}
+img{
+    width: 100px;
+    animation-name:corazon;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes corazon {
+    to {width: 200px;}
+}
